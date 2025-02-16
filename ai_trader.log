@@ -1,0 +1,215 @@
+2025-02-15 10:22:45,319 - INFO - Starting AI Trader...
+2025-02-15 10:22:45,319 - INFO - Risk Manager initialized with RISK_PER_TRADE=0.02, MAX_DAILY_LOSS=0.05
+2025-02-15 10:22:45,319 - INFO - Position size calculated: 100.0
+2025-02-15 10:22:46,062 - INFO - Market Analyzer initialized with sample data.
+2025-02-15 10:22:46,963 - INFO - RSI calculated: 0   NaN
+1   NaN
+2   NaN
+3   NaN
+4   NaN
+5   NaN
+6   NaN
+7   NaN
+8   NaN
+9   NaN
+Name: rsi, dtype: float64
+2025-02-15 10:22:46,963 - INFO - AI Trader is running.
+2025-02-15 10:27:15,438 - INFO - Starting AI Trader...
+2025-02-15 10:27:15,438 - INFO - Risk Manager initialized with RISK_PER_TRADE=0.02, MAX_DAILY_LOSS=0.05
+2025-02-15 10:27:16,221 - INFO - Position size calculated: 100.0
+2025-02-15 10:27:16,223 - INFO - Market Analyzer initialized with sample data.
+2025-02-15 10:27:16,566 - INFO - RSI calculated (last 5 values):
+15    100.0
+16    100.0
+17    100.0
+18    100.0
+19    100.0
+Name: rsi, dtype: float64
+2025-02-15 10:27:16,582 - INFO - AI Trader is running.
+2025-02-15 21:17:02,041 - INFO - Starting AI Trader...
+2025-02-15 21:21:42,176 - INFO - Starting AI Trader...
+2025-02-15 21:24:17,671 - INFO - Starting AI Trader...
+2025-02-15 21:24:19,495 - ERROR - Failed to fetch market data.
+2025-02-15 21:28:08,730 - INFO - Starting AI Trader...
+2025-02-15 21:28:14,807 - INFO - Sample data:
+                           close_aapl   high_aapl    low_aapl   open_aapl  volume_aapl
+Datetime                                                                              
+2025-02-14 14:30:00+00:00  242.679993  243.000000  241.000000  241.070007      2608694
+2025-02-14 14:35:00+00:00  243.404999  243.544296  242.309998  242.699997      1096946
+2025-02-14 14:40:00+00:00  243.580002  243.740005  242.919998  243.419998       993581
+2025-02-14 14:45:00+00:00  243.820007  244.059998  243.300003  243.580002       924407
+2025-02-14 14:50:00+00:00  243.654999  244.110001  243.509995  243.789993       563663
+2025-02-15 21:28:14,823 - WARNING - RSI calculation failed.
+2025-02-15 21:28:14,824 - INFO - AI Trader is running.
+2025-02-15 21:38:24,302 - INFO - Starting AI Trader...
+2025-02-15 21:38:39,892 - INFO - Sample data:
+                                close        high         low        open   volume
+Datetime                                                                          
+2025-02-14 14:30:00+00:00  242.679993  243.000000  241.000000  241.070007  2608694
+2025-02-14 14:35:00+00:00  243.404999  243.544296  242.309998  242.699997  1096946
+2025-02-14 14:40:00+00:00  243.580002  243.740005  242.919998  243.419998   993581
+2025-02-14 14:45:00+00:00  243.820007  244.059998  243.300003  243.580002   924407
+2025-02-14 14:50:00+00:00  243.654999  244.110001  243.509995  243.789993   563663
+2025-02-15 21:38:39,997 - INFO - RSI Values (last 5):
+Datetime
+2025-02-14 20:35:00+00:00    54.275943
+2025-02-14 20:40:00+00:00    55.690819
+2025-02-14 20:45:00+00:00    56.058159
+2025-02-14 20:50:00+00:00    73.095786
+2025-02-14 20:55:00+00:00    57.531819
+Name: RSI_14, dtype: float64
+2025-02-15 21:38:39,997 - INFO - AI Trader is running.
+2025-02-15 21:41:08,509 - INFO - Starting AI Trader...
+2025-02-15 21:41:10,346 - INFO - Sample data:
+                                close        high         low        open   volume
+Datetime                                                                          
+2025-02-06 14:30:00+00:00  231.134796  231.800003  230.779297  231.339996  1584507
+2025-02-06 14:35:00+00:00  232.720001  232.820007  230.960007  231.139999   753071
+2025-02-06 14:40:00+00:00  233.389999  233.554993  232.529999  232.699997   772245
+2025-02-06 14:45:00+00:00  233.089996  233.800003  233.029999  233.399994   648944
+2025-02-06 14:50:00+00:00  233.529999  233.540802  232.919998  233.070007   546690
+2025-02-15 21:41:10,569 - INFO - RSI (last 5):
+Datetime
+2025-02-14 20:35:00+00:00    54.424001
+2025-02-14 20:40:00+00:00    55.818746
+2025-02-14 20:45:00+00:00    56.181020
+2025-02-14 20:50:00+00:00    73.056772
+2025-02-14 20:55:00+00:00    57.583554
+Name: RSI_14, dtype: float64
+2025-02-15 21:41:10,600 - INFO - MACD (last 5):
+                           MACD_12_26_9  MACDh_12_26_9  MACDs_12_26_9
+Datetime                                                             
+2025-02-14 20:35:00+00:00      0.036518      -0.004089       0.040607
+2025-02-14 20:40:00+00:00      0.042663       0.001644       0.041018
+2025-02-14 20:45:00+00:00      0.047789       0.005416       0.042372
+2025-02-14 20:50:00+00:00      0.107898       0.052420       0.055477
+2025-02-14 20:55:00+00:00      0.117068       0.049272       0.067795
+2025-02-15 21:41:10,604 - INFO - AI Trader is running.
+2025-02-15 21:43:43,054 - INFO - Starting AI Trader...
+2025-02-15 21:43:45,583 - INFO - Trading signal: HOLD
+2025-02-15 21:43:45,583 - INFO - AI Trader is running.
+2025-02-15 21:46:07,137 - INFO - Starting AI Trader...
+2025-02-15 21:46:08,810 - INFO - Trading signal: HOLD
+2025-02-15 21:46:08,810 - INFO - AI Trader is running.
+2025-02-16 19:38:47,846 - INFO - Starting AI Trader...
+2025-02-16 19:39:00,511 - INFO - Sample data:
+                                close        high         low        open   volume
+Datetime                                                                          
+2025-02-14 20:35:00+00:00  244.270096  244.366699  244.149994  244.309998   396120
+2025-02-14 20:40:00+00:00  244.309998  244.380005  244.050003  244.279999   367954
+2025-02-14 20:45:00+00:00  244.320007  244.380005  244.210007  244.303604   406058
+2025-02-14 20:50:00+00:00  245.029999  245.410004  244.250000  244.320007  1392205
+2025-02-14 20:55:00+00:00  244.570007  245.110001  244.509995  245.039993  1949568
+2025-02-16 19:39:00,564 - INFO - Latest RSI: 57.58
+2025-02-16 19:39:00,564 - INFO - Latest MACD: 0.12
+2025-02-16 19:39:00,564 - ERROR - Critical error: TransformerMixin.fit_transform() missing 1 required positional argument: 'X'
+2025-02-16 19:50:05,030 - INFO - Starting AI Trader...
+2025-02-16 19:50:06,725 - INFO - Sample data:
+                                close        high         low        open   volume
+Datetime                                                                          
+2025-02-14 20:35:00+00:00  244.270096  244.366699  244.149994  244.309998   396120
+2025-02-14 20:40:00+00:00  244.309998  244.380005  244.050003  244.279999   367954
+2025-02-14 20:45:00+00:00  244.320007  244.380005  244.210007  244.303604   406058
+2025-02-14 20:50:00+00:00  245.029999  245.410004  244.250000  244.320007  1392205
+2025-02-14 20:55:00+00:00  244.570007  245.110001  244.509995  245.039993  1949568
+2025-02-16 19:50:06,759 - INFO - Latest RSI: 57.58
+2025-02-16 19:50:06,761 - INFO - Latest MACD: 0.12
+2025-02-16 19:50:14,390 - INFO - Next 10 predictions:
+[244.36578003 244.50753922 244.32742554 244.29060394 244.19714676
+ 244.15147049 244.14905197 244.15561829 244.16567551 244.17052216]
+2025-02-16 19:50:14,392 - INFO - AI Trader is running.
+2025-02-16 20:13:03,269 - INFO - Starting AI Trader...
+2025-02-16 20:13:05,981 - INFO - Sample data:
+                                close        high         low        open   volume
+Datetime                                                                          
+2025-02-14 20:35:00+00:00  244.270096  244.366699  244.149994  244.309998   396120
+2025-02-14 20:40:00+00:00  244.309998  244.380005  244.050003  244.279999   367954
+2025-02-14 20:45:00+00:00  244.320007  244.380005  244.210007  244.303604   406058
+2025-02-14 20:50:00+00:00  245.029999  245.410004  244.250000  244.320007  1392205
+2025-02-14 20:55:00+00:00  244.570007  245.110001  244.509995  245.039993  1949568
+2025-02-16 20:13:06,048 - INFO - Latest RSI: 57.58
+2025-02-16 20:13:06,050 - INFO - Latest MACD: 0.12
+2025-02-16 20:13:15,333 - INFO - Next 10 predictions:
+[244.36578003 244.50753922 244.32742554 244.29060394 244.19714676
+ 244.15147049 244.14905197 244.15561829 244.16567551 244.17052216]
+2025-02-16 20:13:15,348 - INFO - News Summary: Market news: Positive outlook for tech stocks.
+2025-02-16 20:13:16,587 - INFO - HTTP Request: POST https://api.telegram.org/botYOUR_TELEGRAM_BOT_TOKEN/sendMessage "HTTP/1.1 404 Not Found"
+2025-02-16 20:13:16,592 - ERROR - Failed to send Telegram message: Client error '404 Not Found' for url 'https://api.telegram.org/botYOUR_TELEGRAM_BOT_TOKEN/sendMessage'
+For more information check: https://httpstatuses.com/404
+2025-02-16 20:13:16,596 - INFO - AI Trader is running.
+2025-02-16 20:46:13,724 - INFO - Starting AI Trader...
+2025-02-16 20:46:16,396 - INFO - Sample data:
+                                close        high         low        open   volume
+Datetime                                                                          
+2025-02-14 20:35:00+00:00  244.270096  244.366699  244.149994  244.274002   396120
+2025-02-14 20:40:00+00:00  244.309998  244.380005  244.050003  244.279999   367954
+2025-02-14 20:45:00+00:00  244.320007  244.380005  244.210007  244.303604   406058
+2025-02-14 20:50:00+00:00  245.029999  245.410004  244.250000  244.579697  1392205
+2025-02-14 20:55:00+00:00  244.570007  245.110001  244.509995  245.039993  1949568
+2025-02-16 20:46:16,450 - INFO - Latest RSI: 57.58
+2025-02-16 20:46:16,452 - INFO - Latest MACD: 0.12
+2025-02-16 20:46:19,550 - INFO - Next 10 predictions:
+[244.30911 244.18723 244.07591 244.18098 244.1146  244.15157 244.1526
+ 244.02724 244.26132 244.27368]
+2025-02-16 20:46:20,466 - INFO - HTTP Request: GET https://newsapi.org/v2/everything?q=AAPL&apiKey=3a35a4219c3e41b8b9ff607f4582ffd8 "HTTP/1.1 200 OK"
+2025-02-16 20:46:20,480 - INFO - News: Is Apple Inc. (AAPL) the Best NASDAQ Dividend Stock to Buy? | 9to5Mac Daily: February 3, 2025 – AAPL earnings, AR projects | What matters most for AAPL shares next week
+2025-02-16 20:46:21,291 - INFO - HTTP Request: POST https://api.telegram.org/bot950251170:AAEHwpGH4SKQIG8KgRS6EoHupBX-lZeknlQ/sendMessage "HTTP/1.1 200 OK"
+2025-02-16 20:46:21,294 - INFO - Telegram message sent.
+2025-02-16 20:46:21,295 - INFO - AI Trader is running.
+2025-02-16 21:44:09,925 - INFO - Initializing AI Trader...
+2025-02-16 21:44:15,256 - INFO - Latest market data:
+                                close        high         low        open   volume
+Datetime                                                                          
+2025-02-14 20:35:00+00:00  244.270096  244.366699  244.149994  244.309998   396120
+2025-02-14 20:40:00+00:00  244.309998  244.380005  244.050003  244.279999   367954
+2025-02-14 20:45:00+00:00  244.320007  244.380005  244.210007  244.303604   406058
+2025-02-14 20:50:00+00:00  245.029999  245.410004  244.250000  244.320007  1392205
+2025-02-14 20:55:00+00:00  244.570007  245.110001  244.509995  245.039993  1949568
+2025-02-16 21:44:15,336 - INFO - RSI: 57.58, MACD: 0.1171
+2025-02-16 21:44:19,447 - INFO - Generated predictions: [244.35416 244.33174 244.35333 244.40479 244.21014 244.21649 244.16502
+ 244.02734 244.241   244.2258 ]
+2025-02-16 21:44:20,308 - INFO - HTTP Request: GET https://newsapi.org/v2/everything?q=AAPL&apiKey=3a35a4219c3e41b8b9ff607f4582ffd8 "HTTP/1.1 200 OK"
+2025-02-16 21:44:20,353 - INFO - News headlines: Is Apple Inc. (AAPL) the Best NASDAQ Dividend Stock to Buy? | 9to5Mac Daily: February 3, 2025 – AAPL...
+2025-02-16 21:44:21,219 - INFO - HTTP Request: POST https://api.telegram.org/bot950251170:AAEHwpGH4SKQIG8KgRS6EoHupBX-lZeknlQ/sendMessage "HTTP/1.1 200 OK"
+2025-02-16 21:44:21,236 - INFO - Telegram report sent successfully
+2025-02-16 21:44:21,237 - INFO - AI Trader cycle completed successfully
+2025-02-16 22:06:16,822 - INFO - Initializing AI Trader...
+2025-02-16 22:06:20,661 - INFO - Latest market data:
+                                close        high         low        open   volume
+Datetime                                                                          
+2025-02-14 20:35:00+00:00  244.270096  244.366699  244.149994  244.309998   396120
+2025-02-14 20:40:00+00:00  244.309998  244.380005  244.050003  244.279999   367954
+2025-02-14 20:45:00+00:00  244.320007  244.380005  244.210007  244.303604   406058
+2025-02-14 20:50:00+00:00  245.029999  245.410004  244.250000  244.320007  1392205
+2025-02-14 20:55:00+00:00  244.570007  245.110001  244.509995  245.039993  1949568
+2025-02-16 22:06:20,907 - INFO - RSI: 57.58, MACD: 0.1171
+2025-02-16 22:06:26,338 - INFO - Generated predictions: [244.35416 244.33174 244.35333 244.40479 244.21014 244.21649 244.16502
+ 244.02734 244.241   244.2258 ]
+2025-02-16 22:06:28,192 - INFO - HTTP Request: GET https://newsapi.org/v2/everything?q=AAPL&apiKey=3a35a4219c3e41b8b9ff607f4582ffd8 "HTTP/1.1 200 OK"
+2025-02-16 22:06:28,667 - INFO - News headlines: Is Apple Inc. (AAPL) the Best NASDAQ Dividend Stock to Buy? | 9to5Mac Daily: February 3, 2025 – AAPL...
+2025-02-16 22:06:29,307 - INFO - HTTP Request: POST https://api.telegram.org/bot950251170:AAEHwpGH4SKQIG8KgRS6EoHupBX-lZeknlQ/sendMessage "HTTP/1.1 200 OK"
+2025-02-16 22:06:29,312 - INFO - Telegram report sent successfully
+2025-02-16 22:06:29,312 - INFO - AI Trader cycle completed successfully
+2025-02-16 22:16:54,571 - INFO - Starting AI Trader...
+2025-02-16 22:16:59,135 - INFO - Sample data:
+                                close        high         low        open   volume
+Datetime                                                                          
+2025-02-14 20:35:00+00:00  244.270096  244.366699  244.149994  244.309998   396120
+2025-02-14 20:40:00+00:00  244.309998  244.380005  244.050003  244.279999   367954
+2025-02-14 20:45:00+00:00  244.320007  244.380005  244.210007  244.303604   406058
+2025-02-14 20:50:00+00:00  245.029999  245.410004  244.250000  244.320007  1392205
+2025-02-14 20:55:00+00:00  244.570007  245.110001  244.509995  245.039993  1949568
+2025-02-16 22:16:59,314 - INFO - Latest RSI: 57.58
+2025-02-16 22:16:59,317 - INFO - Latest MACD: 0.12
+2025-02-16 22:17:17,450 - INFO - Next 10 predictions:
+[244.35416 244.33174 244.35333 244.40479 244.21014 244.21649 244.16502
+ 244.02734 244.241   244.2258 ]
+2025-02-16 22:17:17,452 - INFO - AI Trader is running.
+2025-02-16 22:25:30,740 - INFO - Starting AI Trader...
+2025-02-16 22:25:48,619 - INFO - HTTP Request: POST https://api.telegram.org/bot950251170:AAEHwpGH4SKQIG8KgRS6EoHupBX-lZeknlQ/sendMessage "HTTP/1.1 200 OK"
+2025-02-16 22:25:48,626 - INFO - Telegram report sent successfully
+2025-02-16 22:25:48,627 - INFO - AI Trader cycle completed successfully
+2025-02-16 22:29:52,476 - INFO - Starting AI Trader...
+2025-02-16 22:29:58,930 - INFO - HTTP Request: POST https://api.telegram.org/bot950251170:AAEHwpGH4SKQIG8KgRS6EoHupBX-lZeknlQ/sendMessage "HTTP/1.1 200 OK"
+2025-02-16 22:29:58,945 - INFO - Telegram report sent successfully
+2025-02-16 22:29:58,945 - INFO - AI Trader cycle completed successfully

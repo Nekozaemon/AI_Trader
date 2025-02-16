@@ -1,0 +1,12 @@
+MetaTrader5==5.0.43
+python-telegram-bot==21.1
+pandas==2.0.3
+numpy==1.24.3
+yfinance==0.2.53
+pandas-ta==0.3.14b0
+scikit-learn==1.3.2
+tensorflow==2.15.0
+Flask==3.0.2
+xgboost==2.0.0
+httpx==0.27.0  # Updated to match python-telegram-bot's requirement
+python-dotenv==1.0.0
